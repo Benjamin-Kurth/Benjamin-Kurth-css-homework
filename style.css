@@ -1,0 +1,103 @@
+body {
+    background-color: #bbfbfd;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 20px;
+    font-size: 1rem;
+}
+
+.firmen-logo {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+h1 {
+    color: #415fd6;
+    font-size: 2.5rem;
+    margin-bottom: 0rem;
+    text-align: center;
+    background-color: #44c9fa;
+}
+
+h2 {
+    color: #415fd6;
+    font-size: 1.5rem;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    text-align: center;
+    background-color: #44c9fa;
+    font-weight: bold;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 1rem;
+    list-style: none;
+    padding: 0;
+
+}
+
+.hero {
+    display: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    padding: 40px;
+}
+
+.features-section {
+    padding: 40px;
+    background-color: rgb(142, 239, 252);
+    }
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+.card-featured {
+    border: #fd0101 2px solid;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgb(250, 1, 1);
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+.card-featured:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgb(250, 1, 1);
+}
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.card-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+footer {
+    font-size: 0.75rem;
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    color: #000000;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+@media (max-width: 768px) {
+    .card-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
